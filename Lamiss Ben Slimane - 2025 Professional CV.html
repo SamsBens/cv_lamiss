@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dr. Lamiss BEN SLIMANE - CV Professionnel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1C3144;
+            --text-color: #1C3144;
+            --background-light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            position: relative;
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        .profile-image {
+            position: absolute;
+            top: 40;
+            right: 25px;
+            width: 130px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            clear: both;
+        }
+
+        .highlight {
+            background-color: var(--background-light);
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-color);
+            margin: 15px 0;
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: var(--text-color);
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .personal-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+            max-width: calc(100% - 200px);
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 8px;
+            background-color: var(--background-light);
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+
+        .detail-item i {
+            color: var(--primary-color);
+            width: 20px;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .detail-label {
+            color: var(--text-color);
+            opacity: 0.7;
+            font-size: 0.9em;
+        }
+
+        .detail-content {
+            flex: 1;
+        }
+
+        .education-main {
+            border-left: 3px solid var(--primary-color);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .education-secondary {
+            border-left: 3px solid #ccc;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .certification-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .job-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .job-period {
+            font-style: italic;
+            color: var(--text-color);
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+
+        /* Ajustements pour les listes */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .language-level {
+            font-weight: normal;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: relative;">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Dr. Lamiss BEN SLIMANE</h1>
+            <p class="subtitle">Médecin dentiste</p>
+        </div>
+
+        <!-- Profile Image -->
+        <img src="https://i.ibb.co/zhBTkf8R/Photo-Lamiss.png" alt="Lamiss BEN SLIMANE" class="profile-image">
+
+        <!-- Personal Details Section -->
+        <div class="section" style="margin-top: 10px;">
+            <h2><i class="fas fa-user"></i> Informations personnelles</h2>
+            <div class="personal-details">
+            <div class="detail-item">
+                <i class="fas fa-calendar-alt"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Date de naissance</div>
+                    30.11.1985
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Adresse</div>
+                    Chemin de Bérée 44, 1010 Lausanne
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <i class="fas fa-phone-alt"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Téléphone</div>
+                    078 653 01 90
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <i class="fas fa-envelope"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Email</div>
+                    <a href="mailto:dr.lamissbenslimane@gmail.com">dr.lamissbenslimane@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <i class="fas fa-id-card"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Permis</div>
+                    Permis C
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <i class="fas fa-flag"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Nationalité</div>
+                    Tunisie
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formation Section -->
+    <div class="section">
+        <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+        <div class="education-main">
+            <h3>Diplôme National de Médecin-dentiste (2004-2010)</h3>
+            <p>Faculté de Médecine Dentaire de Monastir (FMDM), Tunisie</p>
+            <ul>
+                <li>Formation complète en langue française</li>
+                <li>Spécialisation en médecine dentaire générale</li>
+            </ul>
+        </div>
+
+        <div class="education-secondary">
+            <h3>Formation complémentaire</h3>
+            <ul>
+                <li>Freiburg International Academy (FIA) - 2019
+                    <ul>
+                        <li>Cours de médecine dentaire en Allemand</li>
+                    </ul>
+                </li>
+                <li>École Suisse d'Allemand (ESA) - 2018
+                    <ul>
+                        <li>Cours intensif d'allemand (12 mois)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <div class="section">
+        <h2><i class="fas fa-certificate"></i> Certifications et Équivalences</h2>
+        <div class="highlight">
+            <div class="certification-item">
+                <h3><i class="fas fa-award"></i> Reconnaissance des qualifications professionnelles</h3>
+                <ul>
+					<li>Approbationsurkunde, Baden-Württemberg (2019-2023) - Équivalence du diplôme en Allemagne</li>
+                    <li>Enregistrement MEBEKO (2023)</li>
+                </ul>
+            </div>
+            <div class="certification-item">
+                <h3><i class="fas fa-language"></i> Certifications linguistiques</h3>
+                <ul>
+                    <li>Fachsprachenkenntnisse im berufsspezifischen Kontext (C1) - Baden-Württemberg, 2019</li>
+                    <li>Goethe-Zertifikat B2 - 2018</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Langues Section -->
+    <div class="section">
+        <h2><i class="fas fa-language"></i> Langues</h2>
+        <div class="personal-details">
+            <div class="detail-item">
+                <i class="fas fa-language"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Français</div>
+                    <span class="language-level">Niveau C1</span>
+                </div>
+            </div>
+            <div class="detail-item">
+                <i class="fas fa-language"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Allemand</div>
+                    <span class="language-level">Niveau B2</span>
+                </div>
+            </div>
+            <div class="detail-item">
+                <i class="fas fa-language"></i>
+                <div class="detail-content">
+                    <div class="detail-label">Anglais</div>
+                    <span class="language-level">Niveau B1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Expérience professionnelle Section -->
+    <div class="section">
+        <h2><i class="fas fa-briefcase"></i> Expérience professionnelle</h2>
+        <div class="highlight">
+            <h3><i class="fas fa-tooth"></i> Médecin dentiste sous supervision</h3>
+            <div class="job-period">Avril 2024 - Aujourd'hui | Suisse</div>
+            <p>Cabinet Dr. Jean-Michel Noverraz, Vuadens</p>
+        </div>
+
+        <div class="highlight">
+            <h3><i class="fas fa-clinic-medical"></i> Cabinet dentaire privé</h3>
+            <div class="job-period">2012-2017 | Tunisie</div>
+            <ul>
+                <li>Gestion complète du cabinet dentaire</li>
+                <li>Soins et prothèses dentaires courants</li>
+                <li>Suivi personnalisé des patients</li>
+            </ul>
+        </div>
+
+        <div class="highlight">
+            <h3><i class="fas fa-hospital"></i> Stages hospitaliers</h3>
+            <div class="job-period">2010-2012 | Tunisie</div>
+            <ul>
+                <li>Service de Stomatologie, CHU La Rabta (2011-2012)</li>
+                <li>Service de Prothèse Partielle Amovible, Clinique Dentaire de Monastir (2011)</li>
+                <li>Service de Stomatologie, CHU Farhat Hached (2010)</li>
+                <li>Service de Chirurgie Maxillo-faciale, CHU Sahloul (2010)</li>
+                <li>Service de Parodontologie, Clinique Dentaire de Monastir (2009-2010)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Activités extra-professionnelles Section -->
+    <div class="section">
+        <h2><i class="fas fa-star"></i> Activités extra-professionnelles</h2>
+        <div class="highlight">
+            <ul>
+                <li>Lecture</li>
+                <li>Chant</li>
+                <li>Natation</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
